@@ -73,5 +73,13 @@ let p = document.querySelector('p')
 p.style.borderWidth = '2px' //variavavel.style.propriedade = modificação
 p.style.cssText = 'background-color: blue; color: white' //variavavel.style.propriedade = modificação
 
+//DIMENSÕES DA JANELA
+
+//documentElement.clientWidth  //largura do documento
+//documentElement.clientHeight //altura visivel do documento
+//documentElement.clientscrollHeight //altura completa do documento
+//documentElement.clientscrollWidth //scroll horizontal
+
+
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 }
