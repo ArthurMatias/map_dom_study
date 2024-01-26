@@ -80,6 +80,14 @@ p.style.cssText = 'background-color: blue; color: white' //variavavel.style.prop
 //documentElement.clientscrollHeight //altura completa do documento
 //documentElement.clientscrollWidth //scroll horizontal
 
+//MÉTODOS PARA SCROLL
+
+function executar (){
+
+    window.scrollTo(0,200) //desce até o px selecionado dentro do ()
+    document.documentElement.scrollIntoView(false) //desce ou sobe toda a pagina 
+    window.scrollBy(0,50) //move a quantidade de px que está no () toda vez que executar
+}
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 }
