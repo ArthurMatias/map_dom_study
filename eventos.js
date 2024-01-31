@@ -35,3 +35,28 @@ document.querySelector("div").addEventListener("mousemove", () => {console.log("
 document.querySelector("div").addEventListener("dblclick", () => {console.log("double click")}) //identifica o click duplo
 
 document.querySelector("div").addEventListener("contextmenu", () => {console.log("menu de contexto")}) //identifica o click direito do mouse
+
+//coordenadas do cursos
+
+document.querySelector("div").addEventListener("mousemove", () => {console.log(event.pageX)})
+document.querySelector("div").addEventListener("mousemove", () => {   //exemplo de execução usando coordenadas do cursos
+    if(event.pageX <= 100){
+        event.target.style.backgroundColor = "red"
+    }else{
+        event.target.style.backgroundColor = "blue"
+    }
+})
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+//KEYUP E KEYDOWN
+
+let element = document.querySelector("#box_text")
+
+element.addEventListener("keydown", () => {
+    console.log("pressionou") 
+})
+
+element.addEventListener("keyup", () => {
+    console.log("doltou")
+})
